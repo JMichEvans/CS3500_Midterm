@@ -1,0 +1,41 @@
+body{
+	background-color: #000099;
+	font-family:sans-serif;
+}
+article {
+	margin: 5px 50px;
+	padding: 5px 20px;
+	background-color:#66ccff;
+}
+ul.top {
+	font-family:sans-serif;
+    list-style-type: none;
+    margin: 5px 50px;
+	padding: 5px 20px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.top {
+    float: right;
+    padding: 5px 20px;
+}
+a{
+	color:white;
+}
+.header{
+	font-family:Brush Script MT, Brush Script Std, cursive;
+	margin: 5px 50px;
+	color:white;
+	font-size:70px;
+}
+.album_cover{
+	width:200px;
+	height:200px;
+}
+#hide{
+	display:none;
+}
+.button{
+	
+}
