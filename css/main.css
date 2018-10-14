@@ -1,0 +1,85 @@
+/* Global Variables */
+:root {
+  --main-primary-color:#136186;   /* Cyan */
+  --main-secondary-color:#222222; /* Black */
+  --main-third-color:#e2e2e2;     /* Grey */
+}
+
+/* Global */
+body, h1, h2, h3, p, form, ul, header, footer {
+  margin:0px;
+  padding:0px;
+}
+
+body {
+  font-family:'K2D', Helvetica, sans-serif;
+}
+
+.custom-container {
+  width:90%;
+  margin:auto;
+  overflow:hidden;
+}
+
+/* Header */
+header {
+  position:fixed;
+  top:0px;
+  color:var(--main-third-color);
+  background-color:black;
+  padding-top:0px;
+  margin: 0px 0px 0px 0px;
+  min-height:0px;
+  width: 100%;
+  overflow-y:auto;
+}
+
+#custom-branding {
+  float:left;
+}
+
+#custom-branding h1 {
+  font-size: 64px;
+}
+
+#custom-branding, header li {
+  display: inline-block;
+}
+
+header ul {
+  float: right;
+}
+
+header li {
+  float:right;
+  padding:25px 0px 0px 90px;
+}
+
+header a {
+  font-size: 13px;
+  text-decoration:none;
+  color:var(--main-third-color);
+}
+
+/* Jumbotron */
+#custom-jumbotron {
+  min-height: 900px;
+  text-align: center;
+  color: var(--main-third-color);
+  background:url('../img/background-concert.jpeg');
+  background-repeat: no-repeat;
+  background-position-y: 36%;
+  background-position-x: 52%;
+  background-attachment: fixed;
+}
+
+#custom-jumbotron h3 {
+  padding: 300px 0px 10px 0px;
+  font-size: 32px;
+  font-weight:lighter;
+}
+
+#custom-action {
+  margin: 0px 0px 10px 0px;
+  font-size: 64px;
+}
