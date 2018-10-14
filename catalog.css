@@ -22,10 +22,6 @@ a{
 	margin-bottom:20px;
 	display:block;
 }
-#custom-hide{
-	display:none;
-	float:bottom;
-}
 .custom-left{
 	float:left;
 	margin-left:5%;
@@ -35,8 +31,11 @@ a{
 	margin-left:40%;
 }
 .custom-right{
+	position:absolute;
 	float:right;
 	margin-right:5%;
+	top:26%;
+	left:70%;
 }
 .custom-col-header{
 	font-family:Brush Script MT, Brush Script Std, cursive;
@@ -72,6 +71,8 @@ a{
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.custom-button{
-	
+.custom-info{
+	font-family:Brush Script MT, Brush Script Std, cursive;
+	margin-right:10%;
+	;
 }
