@@ -3,6 +3,7 @@
   --main-primary-color:#136186;   /* Cyan */
   --main-secondary-color:#222222; /* Black */
   --main-third-color:#e2e2e2;     /* Grey */
+  --main-fourth-color:#191919;    /* Slate */
 }
 
 /* Global */
@@ -61,11 +62,11 @@ header a {
   color:var(--main-third-color);
 }
 
-/* Jumbotron */
+/* index_Jumbotron */
 #custom-jumbotron {
-  min-height: 900px;
   text-align: center;
   color: var(--main-third-color);
+  color:white;
   background:url('../img/background-concert.jpeg');
   background-repeat: no-repeat;
   background-position-y: 36%;
@@ -80,6 +81,36 @@ header a {
 }
 
 #custom-action {
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 700px 0px;
   font-size: 64px;
+}
+
+/* index_Services */
+#custom-services { 
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px 0px 50px 0px;
+}
+
+#custom-services .custom-box {
+  float:left;
+  text-align:center;
+  width:50%;
+  padding: 0px 0px 0px 0px;
+  color:white;
+}
+
+#custom-services .custom-box h3 {
+  padding: 20px 0px 0px 0px;
+}
+
+#custom-services .custom-box p {
+  padding: 20px 0px 0px 0px;
+}
+
+/* Footer */
+footer {
+  padding: 20px 0px 20px 0px;
+  background-color:black;
+  color:white;
+  text-align: center;
 }
