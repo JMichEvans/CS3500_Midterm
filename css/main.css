@@ -22,10 +22,10 @@ body {
   margin:auto;
   overflow:hidden;
   background-color:black;
-  color:white;
+  color:var(--main-third-color);
 }
 
-.custom-container-landing {
+.custom-container {
   width:90%;
   margin:auto;
   overflow:hidden;  
@@ -48,7 +48,7 @@ header {
 footer {
   padding: 20px 0px 20px 0px;
   background-color:black;
-  color:white;
+  color:var(--main-third-color);
   text-align: center;
 }
 
@@ -82,10 +82,9 @@ header a {
 /* == index.html == */
 
 /* index_Jumbotron */
-#custom-jumbotron {
+.custom-jumbotron {
   text-align: center;
   color: var(--main-third-color);
-  color:white;
   background:url('../img/background-concert.jpeg');
   background-repeat: no-repeat;
   background-position-y: 36%;
@@ -93,7 +92,7 @@ header a {
   background-attachment: fixed;
 }
 
-#custom-jumbotron h3 {
+.custom-jumbotron h3 {
   padding: 300px 0px 10px 0px;
   font-size: 32px;
   font-weight:lighter;
@@ -156,10 +155,59 @@ main img {
 }
 
 /* "The People" */
-#custom-profiles article {
-  
-}
-
 .custom-main-text {
   float:left;
+}
+
+/* == Contact page == */
+.custom-jumbotron-contact {
+  text-align: center;
+  color: var(--main-third-color);
+  background:url('../img/Contact-computer.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.custom-jumbotron-contact h3 {
+  padding: 300px 0px 10px 0px;
+  font-size: 32px;
+  font-weight:lighter;
+}
+
+.custom-jumbotron-contact #custom-action {
+  margin:0px;
+  padding:0px 0px 500px 0px;
+}
+
+.custom-contact div {
+  display:inline;
+}
+
+.custom-contact h3 {
+  color:var(--main-third-color);
+  padding:20px 0px 5px 0px;
+}
+
+.custom-contact input {
+  width:49%;
+  padding: 10px 0px 10px 0px;
+  margin-bottom:5px;
+}
+
+.custom-contact textarea {
+  width:49.5%;
+  height:100px;
+  resize:none;
+}
+
+.custom-contact button {
+  background-color:var(--main-primary-color);
+  border:none;
+  color:var(--main-third-color);
+  padding:10px 40px;  
+  text-align:center;
+  text-decoration:none;
+  font-size:16px;
+  margin:20px 0px;
 }

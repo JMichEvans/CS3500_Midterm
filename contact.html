@@ -11,43 +11,52 @@
   </head>
   <body>
 <!-- Header; current subpage is highlighted -->
-    <header>
-      <div class="custom-container">
-        <div id="custom-branding">
-          <h1>JJD</h1>
+    <section class="custom-jumbotron-contact">
+      <header>
+        <div class="custom-container">
+          <div id="custom-branding">
+            <h1>JJD</h1>
+          </div>
+          <nav>
+            <ul>
+              <li class="custom-highlighted"><a href="contact.html">CONTACT</a></li>
+              <li><a href="input.html">UPLOAD</a></li>
+              <li><a href="catalog.html">BROWSE</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="index.html">HOME</a></li>
+            </ul>
+          </nav>
         </div>
-        <nav>
-          <ul>
-            <li class="custom-highlighted"><a href="contact.html">CONTACT</a></li>
-            <li><a href="input.html">UPLOAD</a></li>
-            <li><a href="catalog.html">BROWSE</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="index.html">HOME</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+      </header>
+      <h3>J&J Dapper is ready to address your inquiries.<br>Not an automated
+        message.<br>Not an AI.<br>J&J Dapper.
+      </h3>
+      <h1 id="custom-action">LET'S TALK</h1>
+    </section>
 <!-- Form: Contact us -->
     <div class="custom-container">
       <form class="custom-contact" action="index.html" method="post">
+        <h3>Your Information</h3>
         <div>
-          <label for="">Name</label>
-          <br>
-          <input type="text" placeholder="Name">
+          <input type="text" name="first-name" placeholder="First Name...">
+        </div>
+        <div>
+          <input type="text" name="last-name" placeholder="Last Name...">
           <br>
         </div>
         <div>
-          <label for="">Email</label>
-          <br>
-          <input type="text" placeholder="Email">
-          <br>
+          <input type="email" name="email" placeholder="Email...">
         </div>
         <div>
-          <label for="">Message</label>
-          <br>
-          <input type="text" placeholder="Name">
+          <input type="tel" name="phone" placeholder="Phone Number...">
           <br>
         </div>
+        <h3>Message</h2>
+        <div>
+          <textarea placeholder="Tell us your thoughts..."></textarea>
+          <br>
+        </div>
+        <button type="submit" name="button">Send</button>
       </form>
     </div>
 <!-- Footer/Copyright -->
